@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Básicos</title>
+    <title>Hierarquia</title>
 </head>
 <body>
+    <article style="padding: 10%;">
+        A
+        <div>D
+            <p>P</p>
+        </div>
+        <p>P != DIV</p>
 
-    <div style="margin: 10%;">
-        <p>A</p>
-        <p class="jquery">B</p>
-        <b>C</b>
-        <p class="jquery">D</p>
-        <p id="jquery">E</p>
-    </div>
+        <div>D2</div>
+        <b>B1</b>
+        <p>P2</p>
+    </article>
 
     <script src="../js/jquery.js"></script>
-    <script src="basico.js"></script>
+    <script src="hierarquia.js"></script>
 </body>
 </html>

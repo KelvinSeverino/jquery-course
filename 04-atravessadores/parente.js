@@ -30,7 +30,7 @@ $(function(){
         console.log($(this).closest(".article"));
     });
 
-    //CLOSEST
+    //CLOSEST 
     $("b").closest("p").css("border-top", "1px solid #09f");
 
     //PARENT UNTIL

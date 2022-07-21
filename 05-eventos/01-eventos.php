@@ -33,8 +33,12 @@
         </style>
     </head>
     <body>
-
         <p class="j_button button">jQuery Essentials</p>
+
+        <div>
+            <p>Focus nele!</p>
+            <input type="text" name="nome" placeholder="focus">
+        </div>
 
         <script src="../js/jquery.js"></script>
         <script src="eventos.js"></script>
